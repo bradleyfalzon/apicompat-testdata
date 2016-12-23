@@ -10,7 +10,7 @@ import (
 const (
 	ConstMultiSpecA int = 0
 
-	//ConstMultiSpecB int = 0 // will be added
+	ConstMultiSpecB int = 0
 )
 
 // ConstAdded detects something being added
