@@ -156,7 +156,7 @@ type StructRemPrivEmbed struct {
 
 // StructChangeMember detects changes of struct fields
 type StructChangeMember struct {
-	Member1 int
+	Member1 uint
 }
 
 // StructInferredMember checks for support of shorthand types
