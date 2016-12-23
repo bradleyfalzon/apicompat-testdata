@@ -214,7 +214,7 @@ type IfaceChangeArgName interface {
 
 // IfaceChangeMemberArg detects changes of interface methods arguments
 type IfaceChangeMemberArg interface {
-	Member1(arg1 int) (ret1 bool)
+	Member1(arg1 uint) (ret1 bool)
 }
 
 // IfaceChangeMemberReturn detects changes of interface methods return params
