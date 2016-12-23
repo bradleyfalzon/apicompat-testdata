@@ -60,7 +60,7 @@ var VarChangeTypeInterface interface{}
 var VarChangeTypeChan chan uint
 
 // VarChangeTypeChanDirection detects changes in chan direction
-var VarChangeTypeChanDir chan int
+var VarChangeTypeChanDir <-chan int
 
 // VarChangeTypeChanDirection detects removing chan direction
 var VarChangeTypeChanDirRelax <-chan int
