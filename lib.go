@@ -144,7 +144,7 @@ type StructRemMember struct {
 
 // StructRemEmbed detects removals of embedded struct fields
 type StructRemEmbed struct {
-	Struct
+	//Struct was removed
 }
 
 type structPriv struct{}
