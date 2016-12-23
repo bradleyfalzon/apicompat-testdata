@@ -23,7 +23,7 @@ const ConstAdded int = 0
 func GenFuncDeclChange() {}
 
 // GenDeclSpecChange detects a change from a ValueSpec to TypeSpec
-const GenDeclSpecChange int = 1
+type GenDeclSpecChange struct{}
 
 // ConstChangeType detects a change of type for a constant
 const ConstChangeType int = 0
