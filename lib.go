@@ -147,7 +147,7 @@ type StructRemEmbed struct {
 	//Struct was removed
 }
 
-type structPriv struct{}
+//type structPriv struct{} removed
 
 // StructRemPrivEmbed tests for ignorance in removal of elds
 type StructRemPrivEmbed struct {
