@@ -263,7 +263,7 @@ func FuncChangeChanDirRelax(arg1 chan int) {}
 func FuncAddRet() error { return nil }
 
 // FuncAddRetMore detects additions of function return params
-func FuncAddRetMore() error { return nil }
+func FuncAddRetMore() (error, bool) { return nil, false }
 
 // FuncRemRet detects removals of function return params
 func FuncRemRet() error { return nil }
