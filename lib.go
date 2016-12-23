@@ -242,7 +242,7 @@ func FuncInferred(arg1, arg2 int) (ret1, ret2 bool) {}
 func FuncRenameArg(arg2 int) (ret2 error) {}
 
 // FuncAddArg detects additions of function parameter types
-func FuncAddArg() {}
+func FuncAddArg(arg1 int) {}
 
 // FuncRemArg detects removals of function parameter types
 func FuncRemArg(arg1 int) {}
