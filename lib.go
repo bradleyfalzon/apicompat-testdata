@@ -239,7 +239,7 @@ func FuncArgFuncPkg(func(A bytes.Buffer)) {}
 func FuncInferred(arg1, arg2 int) (ret1, ret2 bool) {}
 
 // FuncRenameArg tests ignorance of changes in variable names
-func FuncRenameArg(arg1 int) (ret1 error) {}
+func FuncRenameArg(arg2 int) (ret2 error) {}
 
 // FuncAddArg detects additions of function parameter types
 func FuncAddArg() {}
