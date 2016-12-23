@@ -251,7 +251,7 @@ func FuncRemArg() {}
 func FuncChangeArg(param uint) {}
 
 // FuncChangeChan detects changes of function channel parameter types
-func FuncChangeChan(arg1 chan int) {}
+func FuncChangeChan(arg1 chan uint) {}
 
 // FuncChangeChanDir detects changes of function channel parameter types' direction
 func FuncChangeChanDir(arg1 chan int) {}
