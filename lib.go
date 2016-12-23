@@ -93,7 +93,7 @@ var VarChangeTypeSlice []uint
 var VarChangeTypeSliceLen [1]int
 
 // VarChangeTypeArrayLen detects a change in an array's length
-var VarChangeTypeArrayLen [1]int
+var VarChangeTypeArrayLen [2]int
 
 // VarChangeTypeArrayType detects a change in an array's type
 var VarChangeTypeArrayType [1]int
