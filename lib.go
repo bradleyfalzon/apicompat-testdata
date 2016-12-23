@@ -301,7 +301,7 @@ type T3 interface {
 func FuncInterface(_ T1) {}
 
 // FuncInterfaceIncompatible detects changes in interfaces
-func FuncInterfaceIncompatible(_ T1) {}
+func FuncInterfaceIncompatible(_ T3) {}
 
 // FuncInterfaceCompatible detects changes between compatible interfaces (is not a problem)
 func FuncInterfaceCompatible(_ T3) {}
