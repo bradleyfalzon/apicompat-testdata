@@ -257,7 +257,7 @@ func FuncChangeChan(arg1 chan uint) {}
 func FuncChangeChanDir(arg1 <-chan int) {}
 
 // FuncChangeChanDirRelax detects relaxion of channel parameter type
-func FuncChangeChanDirRelax(arg1 <-chan int) {}
+func FuncChangeChanDirRelax(arg1 chan int) {}
 
 // FuncAddRet detects additions of function return params (is not a problem)
 func FuncAddRet() {}
