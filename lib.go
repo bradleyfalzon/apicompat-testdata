@@ -281,7 +281,7 @@ func (_ FuncRecv) Method2(arg1 bool) (ret1 int)  { return 1 }
 func (_ FuncRecv) method3(arg1 bool) (ret1 int)  { return 1 }
 
 // FuncAddVariadic detects addition of a variadic argument to a function (is not a problem)
-func FuncAddVariadic() {}
+func FuncAddVariadic(_ ...int) {}
 
 // FuncChangeToVariadic detects parameter change to variadic of same type (is not a problem)
 func FuncChangeToVariadic(_ int) {}
