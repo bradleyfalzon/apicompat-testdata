@@ -63,7 +63,7 @@ var VarChangeTypeChan chan uint
 var VarChangeTypeChanDir <-chan int
 
 // VarChangeTypeChanDirection detects removing chan direction
-var VarChangeTypeChanDirRelax <-chan int
+var VarChangeTypeChanDirRelax chan int
 
 // VarChangeTypeFunc detects support for var funcs
 var VarChangeTypeFunc func(arg1 int) (err error)
