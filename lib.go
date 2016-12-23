@@ -151,7 +151,7 @@ type StructRemEmbed struct {
 
 // StructRemPrivEmbed tests for ignorance in removal of elds
 type StructRemPrivEmbed struct {
-	structPriv
+	//structPriv was removed
 }
 
 // StructChangeMember detects changes of struct fields
