@@ -13,8 +13,8 @@ const (
 	ConstMultiSpecB int = 0
 )
 
-// ConstAdded detects something being added
-//const ConstAdded int = 0 // will be added
+// ConstAdded detects additions
+const ConstAdded int = 0
 
 // ConstRemoved detects removals
 const ConstRemoved int = 0
