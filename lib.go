@@ -87,7 +87,7 @@ var VarAddTypeFuncResult func(int) error
 var VarRemoveTypeFuncResult func(int)
 
 // VarChangeTypeSlice detects a change in a slice's type
-var VarChangeTypeSlice []int
+var VarChangeTypeSlice []uint
 
 // VarChangeTypeArrayLen detects a change between slice and array
 var VarChangeTypeSliceLen []int
