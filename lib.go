@@ -194,7 +194,7 @@ type IfaceEmbedCompact interface {
 
 // IfaceInferred tests for ignorance of shorthand type syntax
 type IfaceInferred interface {
-	Member1(arg1 int, arg2 int) (ret1 bool, ret2 bool)
+	Member1(arg1, arg2 int) (ret1, ret2 bool)
 }
 
 // IfaceAddMember detects additions of interface methods
