@@ -266,7 +266,7 @@ func FuncAddRet() error { return nil }
 func FuncAddRetMore() (error, bool) { return nil, false }
 
 // FuncRemRet detects removals of function return params
-func FuncRemRet() error { return nil }
+func FuncRemRet() {}
 
 // FuncChangeArg detects changes of function return params
 func FuncChangeRet() error                     { return nil }
