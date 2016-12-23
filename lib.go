@@ -48,7 +48,7 @@ var _, ValChangeMulti = 1, false
 var VarChangeType uint
 
 // VarChangeValSpecType detects a change between val spec types
-var VarChangeValSpecType int
+var VarChangeValSpecType []int
 
 // VarChangeTypeStruct detects support for var (anonymous) struct
 var VarChangeTypeStruct struct{}
