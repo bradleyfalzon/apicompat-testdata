@@ -112,7 +112,7 @@ var VarChangeTypeStar *uint
 var VarChangeTypeStarSelector *bytes.Reader
 
 // TypeSpecChange detects a change between types specs
-type TypeSpecChange struct{}
+type TypeSpecChange interface{}
 
 // Struct checks for support of struct fields
 type Struct struct{ A int }
