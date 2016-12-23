@@ -199,7 +199,7 @@ type IfaceInferred interface {
 
 // IfaceAddMember detects additions of interface methods
 type IfaceAddMember interface {
-	//Member1 will be added
+	Member1(arg1 int) (ret1 bool)
 }
 
 // IfaceRemMember detects removals of interface methods (is not a problem)
