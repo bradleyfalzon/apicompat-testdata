@@ -130,7 +130,7 @@ type StructAddMember struct {
 
 // StructEmbedAddMember detects additions of struct fields with embedded fields (is not a problem)
 type StructEmbedAddMember struct {
-	//Member1 will be added
+	Member1 int
 	Struct
 	*StructPtr
 	bytes.Buffer
