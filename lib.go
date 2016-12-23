@@ -30,7 +30,7 @@ const ConstChangeType uint = 0
 
 // AliasedImport checks for support for aliases imports
 var AliasedImportChange tmpl.Template
-var AliasedImportRename tmplX.Template
+var AliasedImportRename tmplY.Template
 
 type AliasedImportChangeS struct{ T tmpl.Template }
 type AliasedImportRenameS struct{ T tmplX.Template }
