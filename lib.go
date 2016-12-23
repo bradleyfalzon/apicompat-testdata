@@ -57,7 +57,7 @@ var VarChangeTypeStruct struct{}
 var VarChangeTypeInterface interface{}
 
 // VarChangeTypeChan detects changes in var chan
-var VarChangeTypeChan chan int
+var VarChangeTypeChan chan uint
 
 // VarChangeTypeChanDirection detects changes in chan direction
 var VarChangeTypeChanDir chan int
