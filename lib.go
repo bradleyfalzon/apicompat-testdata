@@ -166,10 +166,10 @@ type StructChangeInferredMember struct {
 
 // StructRemPrivMember tests for ignorance in removal of private members
 type StructRemPrivMember struct {
-	private1, // will be removed
-	private2 int // will be removed
-	Public,
-	private3 int // will be removed
+	// private1 was removed
+	// private2 was removed
+	Public int
+	// private3 was removed
 }
 
 // StructChangePrivMember tests for ignorance in changes in private members
