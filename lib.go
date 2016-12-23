@@ -304,7 +304,7 @@ func FuncInterface(_ T1) {}
 func FuncInterfaceIncompatible(_ T3) {}
 
 // FuncInterfaceCompatible detects changes between compatible interfaces (is not a problem)
-func FuncInterfaceCompatible(_ T3) {}
+func FuncInterfaceCompatible(_ T1) {}
 
 // FuncInterfaceCompatible2 detects changes between compatible interfaces (is not a problem)
 func FuncInterfaceCompatible2(_ io.WriteCloser) {}
