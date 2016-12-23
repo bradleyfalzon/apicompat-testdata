@@ -284,7 +284,7 @@ func (_ FuncRecv) method3(arg1 bool) (ret1 int)  { return 1 }
 func FuncAddVariadic(_ ...int) {}
 
 // FuncChangeToVariadic detects parameter change to variadic of same type (is not a problem)
-func FuncChangeToVariadic(_ int) {}
+func FuncChangeToVariadic(_ ...int) {}
 
 // FuncChangeToVariadicDiffType detects parameter change to variadic of a different type
 func FuncChangeToVariadicDiffType(_ int) {}
