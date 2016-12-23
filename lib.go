@@ -41,8 +41,8 @@ var ValInferredTypeBuiltIn = errors.New("some error")
 var ValInferredTypePackage = bytes.NewBufferString("some error")
 
 // ValChangeMulti detects a change in multi assignments
-var _, ValChangeMultiZeroState int
-var _, ValChangeMulti = 1, 1
+var _, ValChangeMultiZeroState uint
+var _, ValChangeMulti = 1, false
 
 // ValChangeType detects a change of type for a constant
 var VarChangeType int
