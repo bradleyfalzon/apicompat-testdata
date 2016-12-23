@@ -69,7 +69,7 @@ var VarChangeTypeChanDirRelax chan int
 var VarChangeTypeFunc func(arg1 int) (err error)
 
 // VarChangeTypeFuncInferredtests for ignorance of shorthand type syntax
-var VarChangeTypeFuncInferred func(arg1 int, arg2 int) (ret1 bool, ret2 bool)
+var VarChangeTypeFuncInferred func(arg1, arg2 int) (ret1, ret2 bool)
 
 // VarChangeTypeFuncArgRename detects ignorance of argument name changes
 var VarChangeTypeFuncArgRename func(arg1 int) (err1 error)
