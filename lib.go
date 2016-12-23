@@ -45,7 +45,7 @@ var _, ValChangeMultiZeroState uint
 var _, ValChangeMulti = 1, false
 
 // ValChangeType detects a change of type for a constant
-var VarChangeType int
+var VarChangeType uint
 
 // VarChangeValSpecType detects a change between val spec types
 var VarChangeValSpecType int
