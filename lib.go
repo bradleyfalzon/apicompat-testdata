@@ -189,7 +189,7 @@ type IfaceEmbedResolve interface {
 
 // IfaceEmbedCompact tests for ignorance of non embedded to embedded of same signature
 type IfaceEmbedCompact interface {
-	Read(p []byte) (n int, err error)
+	io.Reader
 }
 
 // IfaceInferred tests for ignorance of shorthand type syntax
