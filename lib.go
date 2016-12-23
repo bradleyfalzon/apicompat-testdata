@@ -124,8 +124,8 @@ type StructMapPtrPkg struct{ A map[int]*bytes.Buffer }
 
 // StructAddMember detects additions of struct fields (is not a problem)
 type StructAddMember struct {
-	//Member1 will be added
-	//Member2 will be added
+	Member1 int
+	Member2 []int
 }
 
 // StructEmbedAddMember detects additions of struct fields with embedded fields (is not a problem)
