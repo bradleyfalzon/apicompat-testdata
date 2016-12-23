@@ -33,7 +33,7 @@ var AliasedImportChange tmpl.Template
 var AliasedImportRename tmplY.Template
 
 type AliasedImportChangeS struct{ T tmpl.Template }
-type AliasedImportRenameS struct{ T tmplX.Template }
+type AliasedImportRenameS struct{ T tmplY.Template }
 
 // ValInferredType checks for support for inferred types
 var ValInferredType = "string"
