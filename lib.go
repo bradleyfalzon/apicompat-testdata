@@ -219,7 +219,7 @@ type IfaceChangeMemberArg interface {
 
 // IfaceChangeMemberReturn detects changes of interface methods return params
 type IfaceChangeMemberReturn interface {
-	Member1(arg1 int) (ret1 bool)
+	Member1(arg1 int) (ret1 int)
 }
 
 // TypeAlias detects changes to alias types
