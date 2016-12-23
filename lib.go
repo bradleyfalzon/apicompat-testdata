@@ -318,8 +318,8 @@ type C1 int
 func FuncCustomType(_ C1) {}
 
 // PrivateReturned detects changes in unexported, but returned types
-type s struct{ Member int }
+type s struct{ Member uint }
 
-func F1() s      { return s{} }
-func F2() *s     { return &s{} }
-func (s) F() int { return 0 }
+func F1() s       { return s{} }
+func F2() *s      { return &s{} }
+func (s) F() uint { return 0 }
