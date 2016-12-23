@@ -204,7 +204,7 @@ type IfaceAddMember interface {
 
 // IfaceRemMember detects removals of interface methods
 type IfaceRemMember interface {
-	Member1(arg1 int) (ret1 bool)
+	//Member1 was removed
 }
 
 // IfaceChangeArgName detects argument renaming of interface methods (is not a problem)
