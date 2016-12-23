@@ -26,7 +26,7 @@ func GenFuncDeclChange() {}
 type GenDeclSpecChange struct{}
 
 // ConstChangeType detects a change of type for a constant
-const ConstChangeType int = 0
+const ConstChangeType uint = 0
 
 // AliasedImport checks for support for aliases imports
 var AliasedImportChange tmpl.Template
