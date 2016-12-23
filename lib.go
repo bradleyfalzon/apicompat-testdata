@@ -81,7 +81,7 @@ var VarChangeTypeFuncParam func(uint) error
 var VarChangeTypeFuncResult func(int) bool
 
 // VarAddTypeFuncResult detects an add in a func's return list
-var VarAddTypeFuncResult func(int)
+var VarAddTypeFuncResult func(int) error
 
 // VarRemoveTypeFuncResult detects a removal in a func's return list
 var VarRemoveTypeFuncResult func(int) error
