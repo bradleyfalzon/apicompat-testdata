@@ -248,7 +248,7 @@ func FuncAddArg(arg1 int) {}
 func FuncRemArg() {}
 
 // FuncChangeArg detects changes of function parameter types
-func FuncChangeArg(arg1 int) {}
+func FuncChangeArg(param uint) {}
 
 // FuncChangeChan detects changes of function channel parameter types
 func FuncChangeChan(arg1 chan int) {}
