@@ -202,7 +202,7 @@ type IfaceAddMember interface {
 	Member1(arg1 int) (ret1 bool)
 }
 
-// IfaceRemMember detects removals of interface methods (is not a problem)
+// IfaceRemMember detects removals of interface methods
 type IfaceRemMember interface {
 	Member1(arg1 int) (ret1 bool)
 }
