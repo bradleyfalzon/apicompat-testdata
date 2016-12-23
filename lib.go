@@ -102,7 +102,7 @@ var VarChangeTypeArrayType [1]uint
 var VarChangeTypeMapKey map[uint]int
 
 // VarChangeTypeMapValue detects a change in a map's value
-var VarChangeTypeMapValue map[int]int
+var VarChangeTypeMapValue map[int]uint
 
 // VarChangeTypeSelector detects a change in a selector.ident
 var VarChangeTypeSelector bytes.Buffer
