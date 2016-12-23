@@ -253,8 +253,8 @@ func FuncChangeArg(param uint) {}
 // FuncChangeChan detects changes of function channel parameter types
 func FuncChangeChan(arg1 chan uint) {}
 
-// FuncChangeChanDir detects changes of function channel parameter types' direction
-func FuncChangeChanDir(arg1 chan int) {}
+// FuncChangeChanDir detects changes of function channel parameter types direction
+func FuncChangeChanDir(arg1 <-chan int) {}
 
 // FuncChangeChanDirRelax detects relaxion of channel parameter type
 func FuncChangeChanDirRelax(arg1 <-chan int) {}
