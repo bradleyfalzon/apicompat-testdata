@@ -236,7 +236,7 @@ func FuncArgPtrPkg(arg1 *bytes.Buffer)    {}
 func FuncArgFuncPkg(func(A bytes.Buffer)) {}
 
 // FuncInferred tests for ignorance of shorthand type syntax
-func FuncInferred(arg1 int, arg2 int) (ret1 bool, ret2 bool) {}
+func FuncInferred(arg1, arg2 int) (ret1, ret2 bool) {}
 
 // FuncRenameArg tests ignorance of changes in variable names
 func FuncRenameArg(arg1 int) (ret1 error) {}
