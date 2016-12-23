@@ -105,7 +105,7 @@ var VarChangeTypeMapKey map[uint]int
 var VarChangeTypeMapValue map[int]uint
 
 // VarChangeTypeSelector detects a change in a selector.ident
-var VarChangeTypeSelector bytes.Buffer
+var VarChangeTypeSelector bytes.Reader
 
 // VarChangeTypeStar detects a change in a pointer
 var VarChangeTypeStar *int
