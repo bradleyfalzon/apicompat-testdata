@@ -260,7 +260,7 @@ func FuncChangeChanDir(arg1 <-chan int) {}
 func FuncChangeChanDirRelax(arg1 chan int) {}
 
 // FuncAddRet detects additions of function return params (is not a problem)
-func FuncAddRet() {}
+func FuncAddRet() error { return nil }
 
 // FuncAddRetMore detects additions of function return params
 func FuncAddRetMore() error { return nil }
