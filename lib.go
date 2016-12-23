@@ -90,7 +90,7 @@ var VarRemoveTypeFuncResult func(int)
 var VarChangeTypeSlice []uint
 
 // VarChangeTypeArrayLen detects a change between slice and array
-var VarChangeTypeSliceLen []int
+var VarChangeTypeSliceLen [1]int
 
 // VarChangeTypeArrayLen detects a change in an array's length
 var VarChangeTypeArrayLen [1]int
