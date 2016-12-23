@@ -72,7 +72,7 @@ var VarChangeTypeFunc func(arg1 int) (err error)
 var VarChangeTypeFuncInferred func(arg1, arg2 int) (ret1, ret2 bool)
 
 // VarChangeTypeFuncArgRename detects ignorance of argument name changes
-var VarChangeTypeFuncArgRename func(arg1 int) (err1 error)
+var VarChangeTypeFuncArgRename func(arg2 int) (err2 error)
 
 // VarChangeTypeFuncParam detects a change in a func'ss parameter list
 var VarChangeTypeFuncParam func(int) error
