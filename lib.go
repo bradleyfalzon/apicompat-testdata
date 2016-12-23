@@ -20,7 +20,7 @@ const ConstAdded int = 0
 //const ConstRemoved int = 0
 
 // GenFuncDeclChange detects a change from a constant into a function
-const GenFuncDeclChange int = 1
+func GenFuncDeclChange() {}
 
 // GenDeclSpecChange detects a change from a ValueSpec to TypeSpec
 const GenDeclSpecChange int = 1
