@@ -96,7 +96,7 @@ var VarChangeTypeSliceLen [1]int
 var VarChangeTypeArrayLen [2]int
 
 // VarChangeTypeArrayType detects a change in an array's type
-var VarChangeTypeArrayType [1]int
+var VarChangeTypeArrayType [1]uint
 
 // VarChangeTypeMapKey detects a change in a map's key
 var VarChangeTypeMapKey map[int]int
