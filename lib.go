@@ -245,7 +245,7 @@ func FuncRenameArg(arg2 int) (ret2 error) {}
 func FuncAddArg(arg1 int) {}
 
 // FuncRemArg detects removals of function parameter types
-func FuncRemArg(arg1 int) {}
+func FuncRemArg() {}
 
 // FuncChangeArg detects changes of function parameter types
 func FuncChangeArg(arg1 int) {}
