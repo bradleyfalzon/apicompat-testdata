@@ -269,9 +269,9 @@ func FuncAddRetMore() (error, bool) { return nil, false }
 func FuncRemRet() {}
 
 // FuncChangeArg detects changes of function return params
-func FuncChangeRet() error                     { return nil }
-func FuncChangeRetStarIdent() *int             { return nil }
-func FuncChangeRetStarSelector() *bytes.Buffer { return nil }
+func FuncChangeRet() bool                      { return false }
+func FuncChangeRetStarIdent() *uint            { return nil }
+func FuncChangeRetStarSelector() *bytes.Reader { return nil }
 
 // FuncRecv tests changes to receivers
 type FuncRecv struct{}
