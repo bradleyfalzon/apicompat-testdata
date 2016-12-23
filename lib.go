@@ -223,7 +223,7 @@ type IfaceChangeMemberReturn interface {
 }
 
 // TypeAlias detects changes to alias types
-type TypeAlias int
+type TypeAlias uint
 
 // FuncRetEmptyFunc tests handling of a func return bare func
 func FuncRetEmptyFunc() func()
