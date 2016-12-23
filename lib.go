@@ -209,7 +209,7 @@ type IfaceRemMember interface {
 
 // IfaceChangeArgName detects argument renaming of interface methods (is not a problem)
 type IfaceChangeArgName interface {
-	Member1(arg1 int) (ret1 bool)
+	Member1(renamedArg1 int) (renamedArg2 bool)
 }
 
 // IfaceChangeMemberArg detects changes of interface methods arguments
