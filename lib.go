@@ -17,7 +17,7 @@ const (
 const ConstAdded int = 0
 
 // ConstRemoved detects removals
-const ConstRemoved int = 0
+//const ConstRemoved int = 0
 
 // GenFuncDeclChange detects a change from a constant into a function
 const GenFuncDeclChange int = 1
