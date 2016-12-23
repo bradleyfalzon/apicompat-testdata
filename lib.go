@@ -310,7 +310,7 @@ func FuncInterfaceCompatible(_ T1) {}
 func FuncInterfaceCompatible2(_ io.Writer) {}
 
 // FuncInterfaceCompatible3 detects changes between compatible interfaces (is not a problem)
-func FuncInterfaceCompatible3(_ T2) {}
+func FuncInterfaceCompatible3(_ error) {}
 
 type C1 int
 
