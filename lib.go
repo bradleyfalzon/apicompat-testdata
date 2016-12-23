@@ -99,7 +99,7 @@ var VarChangeTypeArrayLen [2]int
 var VarChangeTypeArrayType [1]uint
 
 // VarChangeTypeMapKey detects a change in a map's key
-var VarChangeTypeMapKey map[int]int
+var VarChangeTypeMapKey map[uint]int
 
 // VarChangeTypeMapValue detects a change in a map's value
 var VarChangeTypeMapValue map[int]int
