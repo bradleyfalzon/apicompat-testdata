@@ -78,7 +78,7 @@ var VarChangeTypeFuncArgRename func(arg2 int) (err2 error)
 var VarChangeTypeFuncParam func(uint) error
 
 // VarChangeTypeFuncResult detects a change in a func's return list
-var VarChangeTypeFuncResult func(int) error
+var VarChangeTypeFuncResult func(int) bool
 
 // VarAddTypeFuncResult detects an add in a func's return list
 var VarAddTypeFuncResult func(int)
