@@ -287,7 +287,7 @@ func FuncAddVariadic(_ ...int) {}
 func FuncChangeToVariadic(_ ...int) {}
 
 // FuncChangeToVariadicDiffType detects parameter change to variadic of a different type
-func FuncChangeToVariadicDiffType(_ int) {}
+func FuncChangeToVariadicDiffType(_ ...uint) {}
 
 type T1 interface{}
 type T2 interface {
