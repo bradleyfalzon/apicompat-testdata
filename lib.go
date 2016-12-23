@@ -139,7 +139,7 @@ type StructEmbedAddMember struct {
 
 // StructRemMember detects removals of struct fields
 type StructRemMember struct {
-	Member1 int
+	//Member1 was removed
 }
 
 // StructRemEmbed detects removals of embedded struct fields
