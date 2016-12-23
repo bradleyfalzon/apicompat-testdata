@@ -174,7 +174,7 @@ type StructRemPrivMember struct {
 
 // StructChangePrivMember tests for ignorance in changes in private members
 type StructChangePrivMember struct {
-	private int
+	private uint
 }
 
 // IfaceEmbed checks for support of interfaces with embedded values
